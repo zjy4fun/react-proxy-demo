@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    json-server:
+        ports:
+            - '8088:80'
+        volumes:
+            - '/home/z/Desktop/a/react-proxy-demo/packages/docker-json-server/articles.json:/data/db.json'
+        image: clue/json-server
