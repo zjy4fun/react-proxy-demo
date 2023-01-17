@@ -38,8 +38,7 @@ localhost:8088
 - post      添加
 - put       修改
 
-
-
+示例见 postman.json 
 
 ### 参考
 

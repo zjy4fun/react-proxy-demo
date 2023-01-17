@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "9a214ad4-4f1f-4a7f-9fbf-771c1d3ce7c2",
+		"name": "docker-json-server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8088/posts/",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"posts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8088/posts/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 5,\n    \"title\": \"title for demo\",\n    \"author\": \"typicode 2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8088/posts",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 5,\n    \"title\": \"json server\",\n    \"author\": \"xiaoming\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8088/posts/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"posts",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
