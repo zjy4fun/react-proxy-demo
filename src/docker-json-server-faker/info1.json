@@ -1,0 +1,19 @@
+{
+  "info": [
+    {
+      "id": 1,
+      "name": "apple 11",
+      "amount": 34.56
+    },
+    {
+      "id": 2,
+      "name": "xiao mi",
+      "amount": 34.56
+    },
+    {
+      "id": 3,
+      "name": "hua wei",
+      "amount": 34.56
+    }
+  ]
+}

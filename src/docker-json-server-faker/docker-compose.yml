@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+    server-1:
+        ports:
+            - '5000:80'
+        volumes:
+            - '/home/z/Desktop/a/react-proxy-demo/src/docker-json-server-faker/info1.json:/data/db.json'
+        image: clue/json-server
+    server-2:
+        ports: 
+            - '5001:80'
+        volumes: 
+            - '/home/z/Desktop/a/react-proxy-demo/src/docker-json-server-faker/info2.json:/data/db.json'
+        image: clue/json-server

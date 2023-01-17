@@ -10,10 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zjy4fun/react-proxy-demo/issues"
-  },
-  "homepage": "https://github.com/zjy4fun/react-proxy-demo#readme",
   "dependencies": {
     "axios": "^1.2.2",
     "http-proxy-middleware": "^2.0.6",

@@ -3,14 +3,14 @@ import axios from 'axios'
 
 export default class App extends Component {
     getStudentData = () => {
-        axios.get('/ProductService/Info').then(
+        axios.get('/ProductService/info').then(
             response => console.log('成功了', response.data),
             error => console.log('失败了', error)
         )
     }
 
     getCarttData = () => {
-        axios.get('/OrderService/Info').then(
+        axios.get('/OrderService/info').then(
             response => console.log('成功了', response.data),
             error => console.log('失败了', error)
         )
