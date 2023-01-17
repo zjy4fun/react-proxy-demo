@@ -4,7 +4,7 @@
 
 ### 使用方式
 
-1. `src/docker-json-server-faker` 目录下利用 docker 创建两个 api
+1. `src/docker-json-server-faker` 目录下利用 docker 创建两个 api(注意修改映射路径)
 2. `npm install`
 3. `npm start`
 
